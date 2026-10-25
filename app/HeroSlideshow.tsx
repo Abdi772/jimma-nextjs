@@ -1,9 +1,9 @@
-   'use client';
+    'use client';
 
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
-// Your pictures: public/hero/slide-1.jpg ... slide-10.jpg
+// Your pictures: public/hero/slide-1.webp ... slide-10.webp
 const COUNT = 10;
 const SLIDE_MS = 5000;
 const GOLD = '#D99024';
@@ -79,13 +79,13 @@ export default function HeroSlideshow({
         return (
           <Image
             key={n}
-            src={`/hero/slide-${n + 1}.jpg`}
+            src={`/hero/slide-${n + 1}.webp`}
             alt=""
             fill
             sizes="(max-width: 768px) 100vw, 560px"
             priority={pos === 0}
             unoptimized
-            aria-hidden={!active}
+            aria-hidden="true"
             onError={() => setMissing((m) => (m.includes(n) ? m : [...m, n]))}
             className={`object-cover transition-all duration-1000 ease-out ${
               active ? 'scale-105 opacity-100' : 'scale-100 opacity-0'
@@ -120,7 +120,7 @@ export default function HeroSlideshow({
               aria-selected={pos === current}
               aria-label={`${pos + 1} / ${total}`}
               onClick={() => go(pos)}
-              className="flex h-6 items-center px-[3px]"
+              className="flex h-6 w-6 items-center justify-center"
             >
               <span
                 className={`block h-1.5 rounded-full transition-all duration-300 ${
@@ -136,4 +136,4 @@ export default function HeroSlideshow({
       )}
     </div>
   );
-}
+              }
