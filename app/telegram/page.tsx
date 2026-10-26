@@ -1,4 +1,4 @@
-'use client';
+ 'use client';
 
 import { useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
@@ -11,6 +11,8 @@ export default function TelegramAlertsPage() {
   const [linked, setLinked] = useState(false);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
+  const [testMsg, setTestMsg] = useState('');
+  const [testOk, setTestOk] = useState(false);
 
   const loadStatus = useCallback(async (uid: string) => {
     const { data } = await supabase
@@ -59,6 +61,32 @@ export default function TelegramAlertsPage() {
       }
     } catch {
       setError('Could not connect. Please log in again and retry.');
+    }
+    setBusy(false);
+  }
+
+  // Sends one test message to this account's own Telegram.
+  async function sendTest() {
+    setTestMsg('');
+    setBusy(true);
+    try {
+      const { data } = await supabase.auth.getSession();
+      const token = data.session?.access_token;
+      if (!token) throw new Error('login');
+      const res = await fetch('/api/telegram/test', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${token}` },
+      });
+      const json = await res.json().catch(() => ({}));
+      setTestOk(!!json.ok);
+      setTestMsg(
+        json.ok
+          ? 'Test sent. Check your Telegram.'
+          : (json.reason ?? 'The test failed. Please try again.'),
+      );
+    } catch {
+      setTestOk(false);
+      setTestMsg('Could not run the test. Please log in again.');
     }
     setBusy(false);
   }
@@ -115,6 +143,24 @@ export default function TelegramAlertsPage() {
             <p className="mt-1 text-sm text-muted">
               Alerts are on. They show a short preview of the message.
             </p>
+            <button
+              type="button"
+              onClick={sendTest}
+              disabled={busy}
+              className="bazaa-primary mt-4 min-h-[48px] w-full border border-amberDeep font-bold disabled:opacity-60"
+            >
+              {busy ? 'Please wait...' : 'Send a test alert'}
+            </button>
+            {testMsg && (
+              <p
+                role="status"
+                className={`mt-3 text-sm font-semibold ${
+                  testOk ? 'text-green-700' : 'text-red-700'
+                }`}
+              >
+                {testMsg}
+              </p>
+            )}
             <button
               type="button"
               onClick={disconnect}
