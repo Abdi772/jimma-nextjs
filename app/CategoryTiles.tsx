@@ -1,4 +1,4 @@
-    'use client';
+     'use client';
 
 import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
@@ -116,6 +116,9 @@ function TileImage({
       src={srcs[index]}
       alt={tile.name}
       fill
+      // Small files in /public: served directly, so a picture that was
+      // missing earlier is not remembered as missing by the resize cache.
+      unoptimized
       sizes={sizes}
       className="object-cover transition-transform duration-300 group-hover:scale-105"
       onError={() => setIndex((i) => i + 1)}
