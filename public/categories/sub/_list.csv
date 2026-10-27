@@ -1,0 +1,157 @@
+category,subcategory,file
+Electronics,Phones,phones.webp
+Electronics,Phone Accessories,phone-accessories.webp
+Electronics,Computers,computers.webp
+Electronics,Computer Parts & Accessories,computer-parts-accessories.webp
+Electronics,Monitors,monitors.webp
+Electronics,Tablets,tablets.webp
+Electronics,TV,tv.webp
+Electronics,TV Accessories & Projectors,tv-accessories-projectors.webp
+Electronics,Audio,audio.webp
+Electronics,Cameras,cameras.webp
+Electronics,Photo & Video,photo-video.webp
+Electronics,Drones,drones.webp
+Electronics,Security & CCTV,security-cctv.webp
+Electronics,Solar & Power,solar-power.webp
+Electronics,Gaming,gaming.webp
+Electronics,Watch,watch.webp
+Electronics,Printers & Scanners,printers-scanners.webp
+Electronics,Networking,networking.webp
+Electronics,Other Electronics,other-electronics.webp
+Vehicles,Cars,cars.webp
+Vehicles,Pickup Trucks,pickup-trucks.webp
+Vehicles,Vans & Minivans,vans-minivans.webp
+Vehicles,Minibuses,minibuses.webp
+Vehicles,Buses,buses.webp
+Vehicles,Trucks,trucks.webp
+Vehicles,Motorcycles,motorcycles.webp
+Vehicles,Three-Wheelers,three-wheelers.webp
+Vehicles,Bicycles,bicycles.webp
+Vehicles,Tractors & Agricultural Vehicles,tractors-agricultural-vehicles.webp
+Vehicles,Heavy Machinery,heavy-machinery.webp
+Vehicles,Parts & Accessories,parts-accessories.webp
+Vehicles,Other Vehicles,other-vehicles.webp
+Home & Living,Furniture,furniture.webp
+Home & Living,Refrigerators & Freezers,refrigerators-freezers.webp
+Home & Living,Washing Machines,washing-machines.webp
+Home & Living,Air Conditioners,air-conditioners.webp
+Home & Living,Kitchen Appliances,kitchen-appliances.webp
+Home & Living,Home Decor,home-decor.webp
+Home & Living,Cookers & Water Heaters,cookers-water-heaters.webp
+Home & Living,Fans & Heaters,fans-heaters.webp
+Home & Living,Kitchenware & Cookware,kitchenware-cookware.webp
+Home & Living,Bedding & Linens,bedding-linens.webp
+Home & Living,Lighting,lighting.webp
+Home & Living,Cleaning & Laundry,cleaning-laundry.webp
+Home & Living,Garden & Outdoor,garden-outdoor.webp
+Home & Living,Other Home & Living,other-home-living.webp
+Fashion,Men's Clothing,men-s-clothing.webp
+Fashion,Women's Clothing,women-s-clothing.webp
+Fashion,Shoes,shoes.webp
+Fashion,Bags & Accessories,bags-accessories.webp
+Fashion,Jewelry,jewelry.webp
+Fashion,Traditional & Cultural Wear,traditional-cultural-wear.webp
+Fashion,Eyewear,eyewear.webp
+Fashion,Belts, Hats & Scarves,belts-hats-scarves.webp
+Fashion,Underwear & Lingerie,underwear-lingerie.webp
+Fashion,Fabrics & Tailoring Materials,fabrics-tailoring-materials.webp
+Fashion,Other Fashion,other-fashion.webp
+Beauty & Personal Care,Skincare,skincare.webp
+Beauty & Personal Care,Makeup,makeup.webp
+Beauty & Personal Care,Hair Care,hair-care.webp
+Beauty & Personal Care,Hair Tools,hair-tools.webp
+Beauty & Personal Care,Perfumes & Fragrances,perfumes-fragrances.webp
+Beauty & Personal Care,Shaving & Grooming,shaving-grooming.webp
+Beauty & Personal Care,Oral Care,oral-care.webp
+Beauty & Personal Care,Beauty Equipment,beauty-equipment.webp
+Beauty & Personal Care,Nails,nails.webp
+Beauty & Personal Care,Medical Equipment,medical-equipment.webp
+Beauty & Personal Care,Vitamins & Supplements,vitamins-supplements.webp
+Beauty & Personal Care,Other Beauty,other-beauty.webp
+Baby & Kids,Baby Clothing,baby-clothing.webp
+Baby & Kids,Baby Shoes,baby-shoes.webp
+Baby & Kids,Strollers,strollers.webp
+Baby & Kids,Baby Car Seats,baby-car-seats.webp
+Baby & Kids,Cribs & Baby Furniture,cribs-baby-furniture.webp
+Baby & Kids,Feeding Equipment,feeding-equipment.webp
+Baby & Kids,Toys,toys.webp
+Baby & Kids,Kids Bicycles,kids-bicycles.webp
+Baby & Kids,Kids Clothing,kids-clothing.webp
+Baby & Kids,Diapers & Baby Care,diapers-baby-care.webp
+Baby & Kids,Maternity,maternity.webp
+Baby & Kids,Other Baby & Kids,other-baby-kids.webp
+Tools & Hardware,Power Tools,power-tools.webp
+Tools & Hardware,Hand Tools,hand-tools.webp
+Tools & Hardware,Welding Equipment,welding-equipment.webp
+Tools & Hardware,Generators,generators.webp
+Tools & Hardware,Garage & Workshop,garage-workshop.webp
+Tools & Hardware,Measuring Tools,measuring-tools.webp
+Tools & Hardware,Safety Gear,safety-gear.webp
+Tools & Hardware,Locks & Door Hardware,locks-door-hardware.webp
+Tools & Hardware,Other Tools,other-tools.webp
+Construction & Building,Building Materials,building-materials.webp
+Construction & Building,Plumbing,plumbing.webp
+Construction & Building,Electrical Materials,electrical-materials.webp
+Construction & Building,Construction Machinery,construction-machinery.webp
+Construction & Building,Roofing,roofing.webp
+Construction & Building,Doors & Windows,doors-windows.webp
+Construction & Building,Tiles & Flooring,tiles-flooring.webp
+Construction & Building,Paint & Finishes,paint-finishes.webp
+Construction & Building,Interior Finishing,interior-finishing.webp
+Construction & Building,Scaffolding & Formwork,scaffolding-formwork.webp
+Construction & Building,Other Construction,other-construction.webp
+Office & Business,Office Furniture,office-furniture.webp
+Office & Business,Photocopiers,photocopiers.webp
+Office & Business,POS & Cash Registers,pos-cash-registers.webp
+Office & Business,Safes,safes.webp
+Office & Business,Shredders,shredders.webp
+Office & Business,Office Supplies,office-supplies.webp
+Office & Business,Packaging Equipment,packaging-equipment.webp
+Office & Business,Commercial Equipment,commercial-equipment.webp
+Office & Business,Restaurant & Cafe Equipment,restaurant-cafe-equipment.webp
+Office & Business,Industrial Machines,industrial-machines.webp
+Office & Business,Shop Fittings,shop-fittings.webp
+Office & Business,Signage & Banners,signage-banners.webp
+Sports & Fitness,Gym Equipment,gym-equipment.webp
+Sports & Fitness,Treadmills,treadmills.webp
+Sports & Fitness,Exercise Bikes,exercise-bikes.webp
+Sports & Fitness,Dumbbells & Weights,dumbbells-weights.webp
+Sports & Fitness,Football,football.webp
+Sports & Fitness,Basketball,basketball.webp
+Sports & Fitness,Volleyball,volleyball.webp
+Sports & Fitness,Tennis,tennis.webp
+Sports & Fitness,Running,running.webp
+Sports & Fitness,Cycling,cycling.webp
+Sports & Fitness,Camping & Outdoor,camping-outdoor.webp
+Sports & Fitness,Sportswear,sportswear.webp
+Sports & Fitness,Combat Sports,combat-sports.webp
+Sports & Fitness,Fitness Accessories,fitness-accessories.webp
+Sports & Fitness,Other Sports,other-sports.webp
+Books & Education,Textbooks,textbooks.webp
+Books & Education,University Books,university-books.webp
+Books & Education,Medical Books,medical-books.webp
+Books & Education,School Books,school-books.webp
+Books & Education,Children's Books,children-s-books.webp
+Books & Education,Reference Books,reference-books.webp
+Books & Education,Religious Books,religious-books.webp
+Books & Education,Stationery,stationery.webp
+Books & Education,Educational Equipment,educational-equipment.webp
+Books & Education,Novels & Fiction,novels-fiction.webp
+Books & Education,Other Books,other-books.webp
+Property,For Rent,for-rent.webp
+Property,For Sale,for-sale.webp
+Property,Land,land.webp
+Property,Commercial,commercial.webp
+Property,Other Property,other-property.webp
+Jobs & Services,Jobs,jobs.webp
+Jobs & Services,Services,services.webp
+Jobs & Services,Seeking Work (CV),seeking-work-cv.webp
+Hobbies & Collectibles,Collectibles,collectibles.webp
+Hobbies & Collectibles,Antiques,antiques.webp
+Hobbies & Collectibles,Art,art.webp
+Hobbies & Collectibles,Musical Instruments,musical-instruments.webp
+Hobbies & Collectibles,Crafts,crafts.webp
+Hobbies & Collectibles,Coins & Stamps,coins-stamps.webp
+Hobbies & Collectibles,Board Games & Puzzles,board-games-puzzles.webp
+Hobbies & Collectibles,Party & Event Supplies,party-event-supplies.webp
+Hobbies & Collectibles,Other Hobbies,other-hobbies.webp
