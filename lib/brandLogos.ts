@@ -1,4 +1,4 @@
- // Brand logo images, served as normal files from public/brands so the
+  // Brand logo images, served as normal files from public/brands so the
 // browser only downloads the ones it shows and can cache them.
 export const BRAND_LOGOS: Record<string, string> = {
   'xiaomi': '/brands/xiaomi.webp',
@@ -24,6 +24,19 @@ export const BRAND_LOGOS: Record<string, string> = {
   'vivo': '/brands/vivo.webp',
   'tcl': '/brands/tcl.webp',
   'sony': '/brands/sony.webp',
+  // Subcategory pictures shown as tiles (Phone Accessories, Computers, Computer Parts)
+  'chargers': '/brands/chargers.webp',
+  'cables': '/brands/cables.webp',
+  'power banks': '/brands/power-banks.webp',
+  'cases & covers': '/brands/cases-covers.webp',
+  'screen protectors': '/brands/screen-protectors.webp',
+  'car chargers': '/brands/car-chargers.webp',
+  'wireless chargers': '/brands/wireless-chargers.webp',
+  'phone holders': '/brands/phone-holders.webp',
+  'hp': '/brands/hp.webp',
+  'dell': '/brands/dell.webp',
+  'acer': '/brands/acer.webp',
+  'ssd & hard drives': '/brands/ssd-hard-drives.webp',
 };
 
 // Some listed brand names differ from the logo file name (e.g. the
@@ -36,5 +49,5 @@ export function getBrandLogo(brand: string): string | null {
   const key = BRAND_LOGO_ALIASES[brand.toLowerCase()] || brand.toLowerCase();
   const path = BRAND_LOGOS[key];
   // ?v= makes browsers fetch the updated logo files instead of old cached ones
-  return path ? `${path}?v=4` : null;
+  return path ? `${path}?v=5` : null;
 }
