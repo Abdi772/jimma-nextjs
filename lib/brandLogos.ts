@@ -30,6 +30,14 @@ export const BRAND_LOGOS: Record<string, string> = {
   'hisense': '/brands/hisense.webp',
   'skyworth': '/brands/skyworth.webp',
   'toshiba': '/brands/toshiba.webp',
+  'projectors': '/brands/projectors.webp',
+  'tv receivers & decoders': '/brands/tv-receivers-decoders.webp',
+  'streaming sticks & media players': '/brands/streaming-sticks-media-players.webp',
+  'dvd players': '/brands/dvd-players.webp',
+  'remotes': '/brands/remotes.webp',
+  'wall mounts & stands': '/brands/wall-mounts-stands.webp',
+  'antennas & cables': '/brands/antennas-cables.webp',
+  'digital signage': '/brands/digital-signage.webp',
   // Subcategory pictures shown as tiles (Phone Accessories, Computers, Computer Parts)
   'chargers': '/brands/chargers.webp',
   'cables': '/brands/cables.webp',
@@ -67,5 +75,5 @@ export function getBrandLogo(brand: string): string | null {
   const key = BRAND_LOGO_ALIASES[brand.toLowerCase()] || brand.toLowerCase();
   const path = BRAND_LOGOS[key];
   // ?v= makes browsers fetch the updated logo files instead of old cached ones
-  return path ? `${path}?v=7` : null;
-}
+  return path ? `${path}?v=8` : null;
+ }
