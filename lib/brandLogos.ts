@@ -1,4 +1,4 @@
-  // Brand logo images, served as normal files from public/brands so the
+ // Brand logo images, served as normal files from public/brands so the
 // browser only downloads the ones it shows and can cache them.
 export const BRAND_LOGOS: Record<string, string> = {
   'xiaomi': '/brands/xiaomi.webp',
