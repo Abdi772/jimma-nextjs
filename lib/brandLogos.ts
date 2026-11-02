@@ -1,4 +1,4 @@
- // Brand logo images, served as normal files from public/brands so the
+  // Brand logo images, served as normal files from public/brands so the
 // browser only downloads the ones it shows and can cache them.
 export const BRAND_LOGOS: Record<string, string> = {
   'xiaomi': '/brands/xiaomi.webp',
@@ -38,6 +38,31 @@ export const BRAND_LOGOS: Record<string, string> = {
   'olympus': '/brands/olympus.webp',
   'gopro': '/brands/gopro.webp',
   'dji': '/brands/dji.webp',
+  'leica': '/brands/leica.webp',
+  'pentax': '/brands/pentax.webp',
+  'kodak': '/brands/kodak.webp',
+  'polaroid': '/brands/polaroid.webp',
+  'epson': '/brands/epson.webp',
+  'konica minolta': '/brands/konica.webp',
+  'konica': '/brands/konica.webp',
+  'lenses': '/brands/lenses.webp',
+  'tripods & monopods': '/brands/tripods-monopods.webp',
+  'gimbals & stabilizers': '/brands/gimbals-stabilizers.webp',
+  'video lights & ring lights': '/brands/video-lights-ring-lights.webp',
+  'flashes & speedlights': '/brands/flashes-speedlights.webp',
+  'softboxes, umbrellas & reflectors': '/brands/softboxes-umbrellas-reflectors.webp',
+  'light stands & studio gear': '/brands/light-stands-studio-gear.webp',
+  'backdrops': '/brands/backdrops.webp',
+  'camera & phone microphones': '/brands/camera-phone-microphones.webp',
+  'memory cards & readers': '/brands/memory-cards-readers.webp',
+  'camera batteries & chargers': '/brands/camera-batteries-chargers.webp',
+  'camera bags & cases': '/brands/camera-bags-cases.webp',
+  'filters & lens accessories': '/brands/filters-lens-accessories.webp',
+  'rigs, cages & monitors': '/brands/rigs-cages-monitors.webp',
+  'streaming & video capture': '/brands/streaming-video-capture.webp',
+  'action camera accessories': '/brands/action-camera-accessories.webp',
+  'drone accessories': '/brands/drone-accessories.webp',
+  'vlogging kits': '/brands/vlogging-kits.webp',
   'ram': '/brands/ram.webp',
   'flash drives': '/brands/flash-drives.webp',
   'graphics cards': '/brands/graphics-cards.webp',
@@ -65,4 +90,4 @@ export function getBrandLogo(brand: string): string | null {
   const path = BRAND_LOGOS[key];
   // ?v= makes browsers fetch the updated logo files instead of old cached ones
   return path ? `${path}?v=4` : null;
-}
+ }
