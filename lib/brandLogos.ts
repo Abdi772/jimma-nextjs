@@ -63,6 +63,20 @@ export const BRAND_LOGOS: Record<string, string> = {
   'action camera accessories': '/brands/action-camera-accessories.webp',
   'drone accessories': '/brands/drone-accessories.webp',
   'vlogging kits': '/brands/vlogging-kits.webp',
+  'cctv cameras': '/brands/cctv-cameras.webp',
+  'dvr': '/brands/dvr.webp',
+  'nvr': '/brands/nvr.webp',
+  'security systems': '/brands/security-systems.webp',
+  'smart doorbells': '/brands/smart-doorbells.webp',
+  'access control': '/brands/access-control.webp',
+  'solar panels': '/brands/solar-panels.webp',
+  'inverters': '/brands/inverters.webp',
+  'batteries': '/brands/batteries.webp',
+  'charge controllers': '/brands/charge-controllers.webp',
+  'voltage stabilizers': '/brands/voltage-stabilizers.webp',
+  'power stations': '/brands/power-stations.webp',
+  'solar lights': '/brands/solar-lights.webp',
+  'autel': '/brands/autel.webp',
   'ram': '/brands/ram.webp',
   'flash drives': '/brands/flash-drives.webp',
   'graphics cards': '/brands/graphics-cards.webp',
@@ -89,5 +103,5 @@ export function getBrandLogo(brand: string): string | null {
   const key = BRAND_LOGO_ALIASES[brand.toLowerCase()] || brand.toLowerCase();
   const path = BRAND_LOGOS[key];
   // ?v= makes browsers fetch the updated logo files instead of old cached ones
-  return path ? `${path}?v=4` : null;
- }
+  return path ? `${path}?v=5` : null;
+}
