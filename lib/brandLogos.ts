@@ -1,4 +1,4 @@
-  // Brand logo images, served as normal files from public/brands so the
+   // Brand logo images, served as normal files from public/brands so the
 // browser only downloads the ones it shows and can cache them.
 export const BRAND_LOGOS: Record<string, string> = {
   'xiaomi': '/brands/xiaomi.webp',
@@ -89,6 +89,12 @@ export const BRAND_LOGOS: Record<string, string> = {
   'hubs & adapters': '/brands/hubs-adapters.webp',
   'ups & surge protectors': '/brands/ups-surge-protectors.webp',
   'cables': '/brands/cables.webp',
+  'routers': '/brands/routers.webp',
+  'wi-fi extenders': '/brands/wi-fi-extenders.webp',
+  'modems': '/brands/modems.webp',
+  'switches': '/brands/switches.webp',
+  'access points': '/brands/access-points.webp',
+  'network cards': '/brands/network-cards.webp',
   'webcams': '/brands/webcams.webp',
   'other': '/brands/other.webp',
 };
